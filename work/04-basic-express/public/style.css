@@ -1,0 +1,83 @@
+*, *::before, *::after { 
+  box-sizing: border-box;
+}
+
+html, body { 
+  height: 100%;
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+}
+
+#chat-app { 
+  display: grid;
+  grid-template-areas: 
+    "users messages"
+    "outgoing outgoing"
+  ;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+
+  height: 100%;
+}
+
+.users { 
+  grid-area: users;
+  background: #2c3e50;
+  padding: 1rem;
+  margin: 0;
+  color: white;
+  overflow-y: auto;
+  list-style-type: none;
+}
+
+.messages { 
+  grid-area: messages;
+  padding: 1rem;
+  margin: 0;
+  overflow-y: auto;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.avatar { 
+  width: 3rem;
+  height: 3rem;
+}
+
+.username { 
+  margin: auto 1rem;
+  color: #3498db;
+}
+
+.message { 
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+}
+
+.sender-info { 
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: auto;
+}
+
+.message-text { 
+  flex-grow: 1;
+  margin: 0;
+  margin-top: auto;
+  word-wrap: break-word;
+}
+
+
+.outgoing { 
+  grid-area: outgoing;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+

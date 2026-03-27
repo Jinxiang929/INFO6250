@@ -1,0 +1,19 @@
+.assignment-list-container {
+    width: 100%;
+  }
+  
+  .assignment-list-container h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .assignment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .empty-message {
+    padding: 1rem;
+    color: #666;
+    font-style: italic;
+  }

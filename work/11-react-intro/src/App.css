@@ -1,0 +1,146 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+.app-header {
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 1rem;
+}
+
+.app-header h1 {
+  color: #333;
+  margin: 0;
+}
+
+.app-content {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.login-title {
+  margin-top: 0;
+  color: #444;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.game {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.game-header h2 {
+  margin: 0;
+  color: #444;
+}
+
+.game-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.game-instructions {
+  color: #555;
+}
+
+.game-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.game-message {
+  padding: 1rem;
+  background-color: #e9f7ef;
+  border-left: 4px solid #2ecc71;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.form-input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.form-button {
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  align-self: flex-start;
+}
+
+.form-button:hover {
+  background-color: #2980b9;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+}
+
+.error-message {
+  padding: 0.75rem;
+  background-color: #fde5e5;
+  border-left: 4px solid #e74c3c;
+  color: #c0392b;
+  border-radius: 4px;
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  
+    flex-wrap: wrap; 
+    margin-bottom: 15px;
+}
+
+.stats p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: 16px;
+}
+
+.word-list {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.word {
+    font-size: 18px;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.congratulations-message {
+    color: green; 
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center; 
+  }
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.logout-button {
+    margin-top: 20px;
+}

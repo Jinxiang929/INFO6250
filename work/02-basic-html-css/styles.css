@@ -1,0 +1,21 @@
+header {
+    background-color: olivedrab;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+footer {
+    background-color: rgb(194, 250, 83);
+}
+
+body {
+    background-color: rgb(223, 159, 80);
+}
+
+main {
+    background-color: rgb(143, 199, 210);
+    color: #333;
+    padding: 20px;
+}
+

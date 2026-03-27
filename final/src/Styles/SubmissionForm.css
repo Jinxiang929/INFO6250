@@ -1,0 +1,165 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .assignment-info {
+    margin-bottom: 20px;
+  }
+  
+  .assignment-date {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .assignment-attempts {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border-left: 3px solid #0066cc;
+  }
+  
+  .attempt-note {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    min-height: 100px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-primary, 
+  .btn-secondary {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-secondary {
+    background-color: #7f8c8d;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6c7a7a;
+  }
+  
+  .previous-submissions {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+  }
+  
+  .previous-submissions h4 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .submission-history {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .previous-submission {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    border-left: 3px solid #6c757d;
+  }
+  
+  .previous-submission .submission-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+  
+  .previous-submission .submission-content {
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #eee;
+  }
+  
+  .comment-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 0.0625rem solid #ddd;
+  }
+  
+  .comment-header {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .comment-content {
+    background-color: #f0f7ff;
+    border-left: 0.1875rem solid #2ecc71;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+  
+  .late-badge {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .max-attempts-reached {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 4px;
+    border-left: 4px solid #dc3545;
+  }
+  
+  @media (max-width: 768px) {
+    .previous-submission .submission-header {
+      flex-direction: column;
+    }
+  }

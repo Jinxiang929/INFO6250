@@ -1,0 +1,154 @@
+.submission-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .assignment-header {
+    margin-bottom: 15px;
+  }
+  
+  .assignment-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .assignment-info p {
+    margin-bottom: 8px;
+  }
+  
+  .assignment-info span {
+    font-weight: bold;
+  }
+  
+  .student-submissions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .student-submission-group {
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  .student-name {
+    margin-bottom: 1rem;
+    padding-bottom: 0.625rem;
+    border-bottom: 0.125rem solid #3498db;
+    color: #2c3e50;
+    font-size: 1.125rem;
+  }
+  
+  .submission-attempts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .submission-item {
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .submission-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+  }
+  
+  .submission-content {
+    background-color: #fff;
+    border-left: 0.1875rem solid #3498db;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+  
+  .comment-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 0.0625rem solid #ddd;
+  }
+  
+  .comment-header {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .comment-content {
+    background-color: #f0f7ff;
+    border-left: 0.1875rem solid #2ecc71;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+  
+  .comment-date {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .comment-form {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px dashed #ddd;
+  }
+  
+  .comment-form h4 {
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 80px;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .late-badge {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .submission-header {
+      flex-direction: column;
+    }
+  }
